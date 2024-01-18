@@ -9,7 +9,6 @@
 html body{
     background-color: darkgray;
     min-width: 100vh;
-
 }
 
 header{
@@ -33,11 +32,31 @@ a{
     font-weight: bolder;
 }
 
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
 a:hover{
     text-decoration: underline;
 }
 
+.normal{
+    background-color: aliceblue;
+    color: black;
+}
 
+.imagem{
+    background-color: rgb(46, 46, 46);
+    color: aliceblue;
+}
+
+.imagem p {
+    background-color: rgba(0, 0, 0, 0.259);
+    width: 400px;
+}
 
 footer{
     background-color: black;
